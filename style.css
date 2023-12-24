@@ -5,6 +5,37 @@
     box-sizing: border-box;
 }
 
-body{
+header {
     background: #005A9C;
+    color: white;
+    padding: 15px 15%; /*Adds minimal padding to center everything*/
+
+}
+.pseudo-logo{
+    font-size: xx-large;
+    width: 140px;
+    white-space:nowrap; /*Prevents text from creating new line*/
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block; /*Can set height & width of element*/
+    margin: 15px 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body {
+    background: #FFFFFF;
 }
